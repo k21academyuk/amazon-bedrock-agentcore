@@ -4,7 +4,7 @@ from ddgs import DDGS
 from strands_tools import retrieve
 import boto3
 
-MODEL_ID = "anthropic.claude-sonnet-4-6"
+MODEL_ID = "us.amazon.nova-2-lite-v1:0"
 
 # System prompt defining the agent's role and capabilities
 SYSTEM_PROMPT = """You are a helpful and professional customer support assistant for an electronics e-commerce company.
